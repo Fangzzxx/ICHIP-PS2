@@ -51,6 +51,13 @@ Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/7.png" width = "60%" height = "60%" />
 </p>
 
+## Control Bits:
+
+<p align="center" width="100%">
+<img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/Control%20Bits.png" width = "60%" height = "60%" />
+</p>
+
+
 ## Testing
 - You will be provided two text files, [Program file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Program.txt) and [Data file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Data.txt). One contained the set of instructions to be executed. Other contained the data to be stored in the memory.
 - We had to Upload the program in the code segment of the Memory and the data in the data segment of the Memory.
