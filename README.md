@@ -19,7 +19,7 @@ Prototype of Accumulator based MICROPROCESSOR using Von Neumann Architecture
 
 - The microprocessor is supposed to follow **Von Neumann Architecture** and should be an accumulator based processor (The output of ALU is always stored in the accumulator).
 
-<img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/3.png" width = "60%" height = "60%" />
+<img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/3.png" width = "40%" height = "40%" />
 
 
 ## Architecture
