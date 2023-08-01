@@ -4,6 +4,7 @@ Prototype of Accumulator based MICROPROCESSOR using Von Neumann Architecture
 
 ## Problem Statement
 ### Problem Statement 1
+Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/I-Chip%20PS1.pdf).
 - In Problem Statement 1, we were assigned to design CalC which will perform arithmetic and logical operations on 8-bit digital inputs and return an 8-bit digital output.
 
 <p align="center" width="100%">
@@ -17,6 +18,7 @@ Prototype of Accumulator based MICROPROCESSOR using Von Neumann Architecture
 </p>
 
 ### Problem Statement 2
+Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/I-Chip%20PS2.pdf).
 - In Problem Statement 2, we were assigned the task of designing a prototype of a complete microprocessor using the CalC in PS1 as the ALU.
 
 <p align="center" width="100%">
@@ -50,6 +52,6 @@ Prototype of Accumulator based MICROPROCESSOR using Von Neumann Architecture
 </p>
 
 ## Testing
-- You will be provided two text files. One contained the set of instructions to be executed. Other contained the data to be stored in the memory.
+- You will be provided two text files, [Program file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Program.txt) and [Data file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Data.txt). One contained the set of instructions to be executed. Other contained the data to be stored in the memory.
 - We had to Upload the program in the code segment of the Memory and the data in the data segment of the Memory.
-- We Created a testbench with a clock cycle of 100 MHz and executed all the instructions in a sequential order. After complete execution of all the instructions, the data segment of Memory was written in an output.txt file.
+- We Created a testbench with a clock cycle of 100 MHz and executed all the instructions in a sequential order. After complete execution of all the instructions, the data segment of Memory was written in an output.txt [file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Memory_Output.txt).
