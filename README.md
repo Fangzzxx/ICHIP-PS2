@@ -24,7 +24,7 @@ Prototype of Accumulator based MICROPROCESSOR using Von Neumann Architecture
 
 ## Architecture
 
-<img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/3.png" width = "40%" height = "40%" />
+<img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/3.png" width = "20%" height = "20%" />
 
 ## Instruction
 - The Insturction length is of 16 Bits and divided into 3 parts:
