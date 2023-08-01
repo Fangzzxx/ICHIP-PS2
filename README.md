@@ -22,4 +22,16 @@ Prototype of Accumulator based MICROPROCESSOR using Von Neumann Architecture
 ![Von Neumann Architecture](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/3.png)
 
 
+## Architecture
 
+![Image](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/5.png)
+
+## Instruction
+- The Insturction length is of 16 Bits and divided into 3 parts:
+
+![Instuction](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/6.png)
+
+## Opcode
+- The length of opcode is 5 bits. The list of opcodes and function associated with them is given below.
+
+![Opcode](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/7.png)
