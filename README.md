@@ -6,6 +6,14 @@ By: Om Verma
 
 Skills: Computer Architecture, Verilog
 
+
+1. [Problem Statement](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#problem-statement)
+2. [Architecture](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#architecture)
+3. [Instruction Format](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#instruction-format)
+4. [Opcode](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#opcode)
+5. [Control Bits](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#control-bits)
+6. [Testing](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#testing)
+
 ## Problem Statement
 
 ### Problem Statement 1
@@ -44,7 +52,7 @@ Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/5.png" width = "60%" height = "60%" />
 </p>
 
-## Instruction
+## Instruction Format
 - The Insturction length is of 16 Bits and divided into 3 parts:
 
 <p align="center" width="100%">
