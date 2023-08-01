@@ -35,3 +35,8 @@ Prototype of Accumulator based MICROPROCESSOR using Von Neumann Architecture
 - The length of opcode is 5 bits. The list of opcodes and function associated with them is given below.
 
 ![Opcode](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/7.png)
+
+## Testing
+- You will be provided two text files. One contained the set of instructions to be executed. Other contained the data to be stored in the memory.
+- We had to Upload the program in the code segment of the Memory and the data in the data segment of the Memory.
+- We Created a testbench with a clock cycle of 100 MHz and executed all the instructions in a sequential order. After complete execution of all the instructions, the data segment of Memory was written in an output.txt file.
