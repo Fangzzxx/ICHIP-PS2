@@ -7,7 +7,7 @@ By: Om Verma
 Skills: Computer Architecture, Verilog
 
 ## Problem Statement
-### Problem Statement 1
+**Problem Statement 1**
 Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/I-Chip%20PS1.pdf).
 - In Problem Statement 1, we were assigned to design CalC which will perform arithmetic and logical operations on 8-bit digital inputs and return an 8-bit digital output.
 
@@ -21,7 +21,7 @@ Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/2.png" width = "60%" height = "60%" />
 </p>
 
-### Problem Statement 2
+**Problem Statement 2**
 Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/I-Chip%20PS2.pdf).
 - In Problem Statement 2, we were assigned the task of designing a prototype of a complete microprocessor using the CalC in PS1 as the ALU.
 
