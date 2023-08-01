@@ -6,7 +6,7 @@ By: Om Verma
 
 Skills: Computer Architecture, Verilog
 
-
+## Index
 1. [Problem Statement](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#problem-statement)
 2. [Architecture](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#architecture)
 3. [Instruction Format](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#instruction-format)
