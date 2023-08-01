@@ -6,8 +6,9 @@ Prototype of Accumulator based MICROPROCESSOR using Von Neumann Architecture
 ### Problem Statement 1
 - In Problem Statement 1, we were assigned to design CalC which will perform arithmetic and logical operations on 8-bit digital inputs and return an 8-bit digital output.
 
-<img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/1.png" width = "60%" height = "60%"  align= "centered" />
-
+<p align="center">
+<img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/1.png" width = "60%" height = "60%"  />
+</p>
 - 7 Control Bits are given as input to the CalC, where each control signal represents a basic operation on inputs as mentioned.
 
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/2.png" width = "60%" height = "60%" />
