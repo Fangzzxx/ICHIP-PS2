@@ -9,33 +9,45 @@ Prototype of Accumulator based MICROPROCESSOR using Von Neumann Architecture
 <p align="center" width="100%">
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/1.png" width = "60%" height = "60%"  />
 </p>
+
 - 7 Control Bits are given as input to the CalC, where each control signal represents a basic operation on inputs as mentioned.
 
+<p align="center" width="100%">
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/2.png" width = "60%" height = "60%" />
+</p>
 
 ### Problem Statement 2
 - In Problem Statement 2, we were assigned the task of designing a prototype of a complete microprocessor using the CalC in PS1 as the ALU.
 
+<p align="center" width="100%">
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/4.png" width = "60%" height = "60%" />
+</p>
 
 - The microprocessor is supposed to follow **Von Neumann Architecture** and should be an accumulator based processor (The output of ALU is always stored in the accumulator).
 
+<p align="center" width="100%">
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/3.png" width = "40%" height = "40%" />
-
+</p>
 
 ## Architecture
 
+<p align="center" width="100%">
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/5.png" width = "60%" height = "60%" />
+</p>
 
 ## Instruction
 - The Insturction length is of 16 Bits and divided into 3 parts:
 
+<p align="center" width="100%">
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/6.png" width = "60%" height = "60%" />
+</p>
 
 ## Opcode
 - The length of opcode is 5 bits. The list of opcodes and function associated with them is given below.
 
+<p align="center" width="100%">
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/7.png" width = "60%" height = "60%" />
+</p>
 
 ## Testing
 - You will be provided two text files. One contained the set of instructions to be executed. Other contained the data to be stored in the memory.
