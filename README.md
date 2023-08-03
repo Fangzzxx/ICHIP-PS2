@@ -73,6 +73,10 @@ Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2
 </p>
 
 ## Solution
+
+<p align="center" width="100%">
+<img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/Circuit%20Diagram.png" width = "60%" height = "60%" />
+</p>
 1. The initial value of PC= 00 0000 0000.
 2. On the **posedge of the CLock**, the Instruction Register output the Adressing mode, Opcode and Memory address to be accessed for getting the operand.
 3. Adressing mode and the Operand's Address goes to the memory and the memory outputs the Operand. Opcode goes to the control unit.
@@ -80,7 +84,7 @@ Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2
 5. Using the control signals, ALU performs the operation.
 6. On the negedge of the clock, PC gets incremented by 1 or stays the same (depends on the control signals provided).
 7. When the **clock is low** the control unit provides control signal for loading the Accumulator and hence, the output of  ALU gets updated in Accumulator.
-8. Now, the cycle repeat everytime wiht new PC value.  
+8. Now, the cycle repeat everytime wiht new PC value. This way we complete each operation in one clock cycle.
 
 ## Testing
 - You will be provided two text files, [Program file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Program.txt) and [Data file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Data.txt). One contained the set of instructions to be executed. Other contained the data to be stored in the memory.
