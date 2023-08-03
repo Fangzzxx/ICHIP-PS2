@@ -81,15 +81,17 @@ Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2
 
 1. Intitially the [Program file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Program.txt) and [Data file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Data.txt) are uploaded in a common 1024 x 16 Memory using $readmemh funciton.
 2. The initial value of PC= 00 0000 0000.
-3. On the **POSEDGE OF THE CLOCK**, the Instruction Register output the Adressing mode, Opcode and Memory address to be accessed for getting the operand.
-4. Adressing mode and the Operand's Address goes to the memory and the memory outputs the Operand. Opcode goes to the control unit.
-5. When the **CLOCK IS HIGH**, the control unit outputs the control signals for the the operation to be performed.
-6. Using the control signals, ALU performs the operation.
-7. On the **NEGEDGE OF THE CLOCK**, PC gets incremented by 1 or stays the same (depends on the control signals provided).
-8. When the **CLOCK IS LOW** the control unit provides control signal for loading the Accumulator and hence, the output of  ALU gets updated in Accumulator.
-9. Now, the cycle repeat everytime with new PC value. This way we complete each operation in one clock cycle.
-10. After the completion of all the operations, the data inside memory is printed in Output.txt [file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Memory_Output.txt) using the $writememh function.
-11. You can find all the verilog codes [here](https://github.com/Fangzzxx/ICHIP-PS2/tree/main/new).
+3. When the **CLOCK IS LOW**, memory outputs insntruction addresss.
+4. On the **POSEDGE OF THE CLOCK**, the Instruction Register output the Adressing mode, Opcode and Memory address to be accessed for getting the operand.
+5. Adressing mode and the Operand's Address goes to the memory and the memory outputs the Operand. Opcode goes to the control unit.
+6. When the **CLOCK IS HIGH**, the control unit outputs the control signals for the the operation to be performed.
+7. Using the control signals, ALU performs the operation.
+8. On the **NEGEDGE OF THE CLOCK**, PC gets incremented by 1 or stays the same (depends on the control signals provided).
+9. When the **CLOCK IS LOW** the control unit provides control signal for loading the Accumulator and hence, the output of  ALU gets updated in Accumulator. Also, side by side, memory outputs the second instruction to be executed.
+10. On the **POSEDGE OF THE CLOCK** , Instruction Register output the the addressing mode, [opcode](https://github.com/Fangzzxx/ICHIP-PS2#opcode) and operand's adresss for the second instruction.
+11. Now, the cycle repeat everytime with new PC value. This way we complete each operation in one clock cycle.
+12. After the completion of all the operations, the data inside memory is printed in Output.txt [file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Memory_Output.txt) using the $writememh function.
+13. You can find all the verilog codes [here](https://github.com/Fangzzxx/ICHIP-PS2/tree/main/new).
 ## Testing
 - You will be provided two text files, [Program file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Program.txt) and [Data file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Data.txt). One contained the set of instructions to be executed. Other contained the data to be stored in the memory.
 - We had to Upload the program in the code segment of the Memory and the data in the data segment of the Memory.
