@@ -41,7 +41,7 @@ Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/4.png" width = "60%" height = "60%" />
 </p>
 
-- The microprocessor is supposed to follow **Von Neumann Architecture** and should be an accumulator based processor (The output of ALU is always stored in the accumulator).
+- The microprocessor is supposed to follow [Von Neumann Architecture](https://www.javatpoint.com/von-neumann-model) and should be an accumulator based processor (The output of ALU is always stored in the accumulator).
 
 <p align="center" width="100%">
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/3.png" width = "40%" height = "40%" />
@@ -60,7 +60,8 @@ Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/6.png" width = "60%" height = "60%" />
 </p>
 
-## Opcode
+## Opcode and Adressing modes
+- The CPU suppports 2 addressing modes, [Direct and Indirect Adressing Modes](https://www.geeksforgeeks.org/difference-between-direct-and-indirect-addressing-modes/).
 - The length of opcode is 5 bits. The list of opcodes and function associated with them is given below.
 
 <p align="center" width="100%">
