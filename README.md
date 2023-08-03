@@ -89,7 +89,7 @@ Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2
 8. When the **CLOCK IS LOW** the control unit provides control signal for loading the Accumulator and hence, the output of  ALU gets updated in Accumulator.
 9. Now, the cycle repeat everytime with new PC value. This way we complete each operation in one clock cycle.
 10. After the completion of all the operations, the data inside memory is printed in Output.txt [file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Memory_Output.txt) using the $writememh function.
-
+11. You can find all the verilog codes [here](https://github.com/Fangzzxx/ICHIP-PS2/tree/main/new).
 ## Testing
 - You will be provided two text files, [Program file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Program.txt) and [Data file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Data.txt). One contained the set of instructions to be executed. Other contained the data to be stored in the memory.
 - We had to Upload the program in the code segment of the Memory and the data in the data segment of the Memory.
