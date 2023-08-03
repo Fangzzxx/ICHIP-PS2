@@ -77,6 +77,7 @@ Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2
 <p align="center" width="100%">
 <img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/Circuit%20Diagram.png" width = "60%" height = "60%" />
 </p>
+
 1. The initial value of PC= 00 0000 0000.
 2. On the **posedge of the CLock**, the Instruction Register output the Adressing mode, Opcode and Memory address to be accessed for getting the operand.
 3. Adressing mode and the Operand's Address goes to the memory and the memory outputs the Operand. Opcode goes to the control unit.
