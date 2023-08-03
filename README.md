@@ -12,7 +12,8 @@ Skills: Computer Architecture, Verilog
 3. [Instruction Format](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#instruction-format)
 4. [Opcode](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#opcode)
 5. [Control Bits](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#control-bits)
-6. [Testing](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#testing)
+6. [Solution](https://github.com/Fangzzxx/ICHIP-PS2/tree/main#solution)
+7. [Testing](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/README.md#testing)
 
 ## Problem Statement
 
