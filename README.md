@@ -77,7 +77,7 @@ Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2
 ## Solution
 
 <p align="center" width="100%">
-<img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/Block%20Diagram.png" width = "100%" height = "100%" />
+<img src = "https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Images/Block%20Diagram.png" width = "60%" height = "60%" />
 </p>
 
 <p align="center" width="100%">
