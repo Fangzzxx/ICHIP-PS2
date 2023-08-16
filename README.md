@@ -86,7 +86,7 @@ Read the complete Problem Statement [here](https://github.com/Fangzzxx/ICHIP-PS2
 
 1. Intitially the [Program file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Program.txt) and [Data file](https://github.com/Fangzzxx/ICHIP-PS2/blob/main/Data.txt) are uploaded in a common 1024 x 16 Memory using $readmemh funciton.
 2. The initial value of PC= 00 0000 0000.
-3. When the **CLOCK IS LOW**, memory outputs insntruction addresss.
+3. When the **CLOCK IS LOW**, memory outputs instruction addresss.
 4. On the **POSEDGE OF THE CLOCK**, the Instruction Register output the Adressing mode, Opcode and Memory address to be accessed for getting the operand.
 5. Adressing mode and the Operand's Address goes to the memory and the memory outputs the Operand. Opcode goes to the control unit.
 6. When the **CLOCK IS HIGH**, the control unit outputs the control signals for the the operation to be performed.
